@@ -17,7 +17,7 @@ function Home() {
         <meta property="og:title" content="Fertilizers & Pesticides - 100% Organic Products" />
         <meta property="og:description" content="Discover a range of trusted and affordable farming solutions." />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/logo.jpeg" />
+        <meta property="og:image" content="./logo.jpeg" />
         <meta property="og:url" content="https://kmrv-fertilizers.vercel.app/" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://kmrv-fertilizers.vercel.app/" />
