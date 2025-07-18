@@ -41,7 +41,7 @@ function Navbar() {
 
       {/* Mobile Menu Drawer */}
       <div
-        className={`fixed top-0 right-0 h-full w-[60%] sm:w-[40%] bg-green-100 shadow-lg z-40 transform ${
+        className={`fixed top-0 right-0 h-full w-[60%] sm:w-[40%] bg-green-100 shadow-lg z-40 transform block lg:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >

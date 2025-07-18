@@ -12,6 +12,7 @@ import Features from "./components/Features";
 function App() {
   return (
     <Router>
+      
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">

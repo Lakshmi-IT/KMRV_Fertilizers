@@ -21,7 +21,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="p-10 bg-green-50 text-center">
+    <section className="p-10 bg-green-50 text-center pt-24">
       <h2 className="text-3xl font-bold mb-6 text-green-800">Why Choose Us</h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer">
         {features.map((feature, index) => (

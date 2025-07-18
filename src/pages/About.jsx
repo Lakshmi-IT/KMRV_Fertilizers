@@ -8,7 +8,7 @@ const About = () => {
     },
     {
       icon: "🔬",
-      title: "Scientific Innovation", 
+      title: "Scientific Innovation",
       description: "Our research-driven approach ensures every product is backed by the latest agricultural science."
     },
     {
@@ -32,7 +32,7 @@ const About = () => {
     },
     {
       name: "Michael Rodriguez",
-      role: "Head of Product Development", 
+      role: "Head of Product Development",
       bio: "Former farmer turned innovator, bringing practical knowledge to our product design.",
       avatar: "👨‍💼"
     },
@@ -54,7 +54,7 @@ const About = () => {
               About <span className="text-green-600">KMRU</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Leading the agricultural revolution with innovative, sustainable solutions 
+              Leading the agricultural revolution with innovative, sustainable solutions
               that empower farmers and protect the environment.
             </p>
           </div>
@@ -68,26 +68,21 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2009 by a team of agricultural scientists and former farmers, 
-                KMRU was born from a simple yet powerful vision: to create agricultural 
-                solutions that increase productivity while preserving the environment.
+                KMRU started with a simple idea — to help farmers grow better crops using safe, effective, and affordable solutions. We believe good farming begins with the right support and knowledge.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What started as a small research lab has grown into a leading provider of 
-                fertilizers and pesticides used by farmers across the country. Our commitment 
-                to innovation and sustainability has made us a trusted partner in modern agriculture.
+                Over the years, we{`’`}ve worked closely with farmers to understand their challenges and find practical ways to solve them. From fertilizers and pesticides to smart farming tools, everything we offer is made to improve your farm’s health and productivity.
               </p>
               <p className="text-lg text-gray-600">
-                Today, we continue to push the boundaries of agricultural science, developing 
-                products that not only boost yields but also contribute to healthier soil, 
-                cleaner water, and a more sustainable future for farming.
+                Our goal is to build a future where farming is not just easier, but also more sustainable for generations to come. With KMRU by your side, you’re never farming alone.
               </p>
             </div>
+
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-green-400 to-green-600 rounded-3xl shadow-2xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&h=400&fit=crop" 
-                  alt="Pine trees representing growth" 
+                <img
+                  src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=600&h=400&fit=crop"
+                  alt="Pine trees representing growth"
                   className="w-full h-full object-cover opacity-90"
                 />
               </div>
@@ -104,8 +99,8 @@ const About = () => {
               <div className="text-5xl mb-6">🎯</div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h3>
               <p className="text-lg text-gray-600">
-                To empower farmers worldwide with innovative, sustainable agricultural solutions 
-                that maximize crop yields while protecting the environment for future generations. 
+                To empower farmers worldwide with innovative, sustainable agricultural solutions
+                that maximize crop yields while protecting the environment for future generations.
                 We believe that productive farming and environmental stewardship can go hand in hand.
               </p>
             </div>
@@ -113,8 +108,8 @@ const About = () => {
               <div className="text-5xl mb-6">🔮</div>
               <h3 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h3>
               <p className="text-lg text-gray-600">
-                To be the global leader in sustainable agriculture technology, creating a world 
-                where farming feeds the growing population while regenerating the earth's natural 
+                To be the global leader in sustainable agriculture technology, creating a world
+                where farming feeds the growing population while regenerating the earth's natural
                 resources and ecosystems.
               </p>
             </div>
@@ -131,10 +126,10 @@ const About = () => {
               The principles that guide everything we do at KMRU.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
-              <div 
+              <div
                 key={index}
                 className="text-center p-6 rounded-2xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 bg-gradient-to-br from-gray-50 to-white border border-gray-100"
               >
@@ -148,7 +143,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-green-50 ">
+      {/* <section className="py-20 bg-green-50 ">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
@@ -156,10 +151,10 @@ const About = () => {
               The passionate experts behind KMRU's innovative solutions.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-center"
               >
@@ -171,10 +166,10 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Awards & Recognition */}
-      <section className="py-20 bg-green-50">
+      {/* <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Awards & Recognition</h2>
@@ -182,7 +177,7 @@ const About = () => {
               Our commitment to excellence has been recognized by industry leaders.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-gradient-to-br from-yellow-100 to-orange-50 rounded-2xl">
               <div className="text-5xl mb-4">🏆</div>
@@ -201,7 +196,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

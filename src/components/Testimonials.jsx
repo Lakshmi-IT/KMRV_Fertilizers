@@ -26,11 +26,11 @@ export default function Testimonials() {
             <Quote className="w-8 h-8 text-green-400 mb-4" />
             <p className="text-gray-700 italic leading-relaxed">"{d.feedback}"</p>
             <div className="flex items-center gap-4 mt-6">
-              <img
+              {/* <img
                 src={d.image}
                 alt={d.name}
                 className="w-12 h-12 rounded-full object-cover border-2 border-green-500"
-              />
+              /> */}
               <p className="font-semibold text-green-700">{d.name}</p>
             </div>
           </div>

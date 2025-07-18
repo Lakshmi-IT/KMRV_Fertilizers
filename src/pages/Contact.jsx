@@ -39,17 +39,22 @@ const Contact = () => {
     {
       icon: "📍",
       title: "Our Location",
-      details: ["123 Agriculture Street", "Farm City, FC 12345", "United States"]
+      details: ["1-11-251/11, RKP MANSION, BEGUMPET CIRCLE 26, Begumpet, Secunderabad, Hyderabad-500016, Telangana"]
     },
     {
       icon: "📞",
       title: "Phone Numbers",
-      details: ["Main: +1 (555) 123-4567", "Support: +1 (555) 123-4568", "Emergency: +1 (555) 123-4569"]
+      details: ["Main: +91 9951309398",
+        //  "Support: +1 (555) 123-4568",
+        //   "Emergency: +1 (555) 123-4569"
+        ]
     },
     {
       icon: "📧",
       title: "Email Addresses",
-      details: ["info@KMRU.com", "support@KMRU.com", "sales@KMRU.com"]
+      details: ["info@kmrufertilizersandpesticides.in",
+        //  "support@KMRU.com", "sales@KMRU.com"
+        ]
     },
     {
       icon: "🕒",
@@ -282,7 +287,7 @@ const Contact = () => {
                 <h3 className="text-lg font-bold text-red-900 mb-2">🚨 Emergency Support</h3>
                 <p className="text-red-700">
                   For urgent agricultural emergencies or critical crop issues, 
-                  call our 24/7 emergency hotline: <strong>+1 (555) 911-CROP</strong>
+                  call our 24/7 emergency hotline: <strong>+91 9951309398</strong>
                 </p>
               </div>
             </div>
@@ -291,7 +296,7 @@ const Contact = () => {
       </section>
 
       {/* Regional Offices */}
-      <section className="py-20 bg-green-50">
+      {/* <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Regional Offices</h2>
@@ -329,7 +334,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Map Section */}
       <section className="py-20 bg-green-50">
@@ -347,7 +352,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-gray-700 mb-2">Interactive Map</h3>
               <p className="text-gray-600">
                 Map integration would be implemented here<br />
-                123 Agriculture Street, Farm City, FC 12345
+                1-11-251/11, RKP MANSION, BEGUMPET CIRCLE 26, Begumpet, Secunderabad, Hyderabad-500016, Telangana
               </p>
             </div>
           </div>
