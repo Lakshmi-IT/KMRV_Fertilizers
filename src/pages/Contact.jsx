@@ -52,7 +52,7 @@ const Contact = () => {
     {
       icon: "📧",
       title: "Email Addresses",
-      details: ["info@kmrufertilizersandpesticides.in",
+      details: ["kmrufertilizerandpesticides@gmail.com",
         //  "support@KMRU.com", "sales@KMRU.com"
         ]
     },

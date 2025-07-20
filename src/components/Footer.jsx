@@ -95,7 +95,7 @@ const Footer = () => {
             <div className="space-y-2">
               <p className="text-[#000]">
                 <span className="inline-block w-5 text-green-400">📧</span>
-                info@kmrufertilizersandpesticides.in
+                kmrufertilizerandpesticides@gmail.com
               </p>
               <p className="text-[#000]">
                 <span className="inline-block w-5 text-green-400">📞</span>
